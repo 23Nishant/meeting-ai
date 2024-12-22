@@ -1,10 +1,10 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { AudioProcessor } from '@/components/AudioProcessor';
-import { MeetingNotes } from '@/components/MeetingNotes';
-import { QuestionAnswer } from '@/components/QuestionAnswer';
-import { ExtensionCheck } from '@/components/ExtensionCheck';
+import { AudioProcessor } from '../../components/AudioProcessor';
+import { MeetingNotes } from '../../components/MeetingNotes';
+import { QuestionAnswer } from '../../components/QuestionAnswer';
+import { ExtensionCheck } from '../../components/ExtensionCheck';
 
 export default function Home() {
   const [isExtensionActive, setIsExtensionActive] = useState(false);

@@ -2,7 +2,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { startMeeting, updateTranscript } from '@/lib/api';
+import { startMeeting, updateTranscript } from '../lib/api';
 
 export function AudioProcessor({
   onMeetingStart,

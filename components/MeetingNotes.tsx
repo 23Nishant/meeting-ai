@@ -2,7 +2,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { getTranscript } from '@/lib/api';
+import { getTranscript } from '../lib/api';
 
 export function MeetingNotes({ meetingId }: { meetingId: string | null }) {
   const [transcript, setTranscript] = useState<string>('');

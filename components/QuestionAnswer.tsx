@@ -2,7 +2,7 @@
 'use client';
 
 import { useState } from 'react';
-import { askQuestion } from '@/lib/api';
+import { askQuestion } from '../lib/api';
 
 export function QuestionAnswer({ meetingId }: { meetingId: string | null }) {
   const [question, setQuestion] = useState('');
